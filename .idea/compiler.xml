@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="web-travel" />
+        <module name="api" />
+        <module name="springcloud-feign" />
+        <module name="springcloud-provider-zhy" />
+        <module name="springcloud-provider-fwt" />
+        <module name="springcloud-eureka" />
+        <module name="springcloud-provider-cyp" />
+        <module name="springcloud-provider" />
+        <module name="springcloud-provider-byw" />
+        <module name="springcloud-provider-zxx" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api" options="-parameters" />
+      <module name="springcloud-eureka" options="-parameters" />
+      <module name="springcloud-feign" options="-parameters" />
+      <module name="springcloud-provider" options="-parameters" />
+      <module name="springcloud-provider-byw" options="-parameters" />
+      <module name="springcloud-provider-cyp" options="-parameters" />
+      <module name="springcloud-provider-fwt" options="-parameters" />
+      <module name="springcloud-provider-zhy" options="-parameters" />
+      <module name="springcloud-provider-zxx" options="-parameters" />
+    </option>
+  </component>
+</project>
